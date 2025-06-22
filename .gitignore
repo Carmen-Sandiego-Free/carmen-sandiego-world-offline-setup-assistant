@@ -1,0 +1,232 @@
+# 🔒 Sensitive Information - NEVER COMMIT THESE!
+.internal/GITHUB_CREDENTIALS.md
+.internal/
+*.env
+*.key
+*.pem
+*.crt
+*.p12
+secrets/
+credentials/
+
+# 🖥️ Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 📦 Build Artifacts and Distribution
+build/
+dist/
+out/
+target/
+bin/
+obj/
+*.exe
+*.dmg
+*.pkg
+*.deb
+*.msi
+*.app
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+# 🛠️ Development Tools
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+.metadata/
+.gradle/
+*.iml
+*.ipr
+*.iws
+
+# 📝 Logs and Temporary Files
+*.log
+logs/
+temp/
+tmp/
+cache/
+.cache/
+.tmp/
+*.pid
+*.seed
+*.lock
+
+# 🔧 Language-Specific
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+.nyc_output
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# C/C++
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+
+# C#/.NET
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+packages/
+*.nupkg
+
+# 🎮 Game Development
+Assets/StreamingAssets/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+/[Uu]serSettings/
+*.tmp
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# 📊 Analytics and Metrics
+analytics/
+metrics/
+*.analytics
+google-services.json
+GoogleService-Info.plist
+
+# 🗄️ Database Files
+*.db
+*.sqlite
+*.sqlite3
+*.db3
+*.s3db
+
+# 📸 Media and Assets (Large Files)
+*.wav
+*.mp3
+*.ogg
+*.m4a
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.psd
+*.ai
+*.sketch
+*.fig
+
+# 🌐 Web Development
+.sass-cache/
+.connect.lock
+.grunt
+coverage/
+libpeerconnection.log
+testem.log
+typings/
+.awcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# 🐳 Containerization
+Dockerfile.local
+docker-compose.override.yml
+.dockerignore
+
+# ☁️ Cloud and Deployment
+.aws/
+.gcp/
+.azure/
+.terraform/
+*.tfstate
+*.tfstate.*
+.vagrant/
+
+# 📱 Mobile Development
+*.ipa
+*.apk
+*.aab
+.expo/
+.expo-shared/
+
+# 🧪 Testing
+coverage/
+.nyc_output/
+junit.xml
+test-results/
+screenshots/
+.allure/
+
+# 🚀 CI/CD
+.github/secrets/
+deploy_key
+deploy_key.pub
+
+# 📚 Documentation Build
+_site/
+.jekyll-cache/
+.jekyll-metadata
+docs/_site/
+site/
+
+# 🎯 Project-Specific
+# Add any Carmen Sandiego specific files to ignore
+user_data/
+save_games/
+high_scores.dat
+config.local
+preferences.ini
+crash_reports/ 

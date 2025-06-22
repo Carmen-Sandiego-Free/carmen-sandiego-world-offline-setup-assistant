@@ -1,0 +1,140 @@
+# Jekyll Configuration for Carmen Sandiego World Offline Setup Assistant
+title: "Carmen Sandiego World Offline Setup Assistant"
+description: "Master world geography with Carmen Sandiego's offline educational game. Perfect for classrooms, homeschooling, and individual learning. No internet required!"
+author: "Carmen Sandiego Free Team"
+email: "info@carmen-sandiego-free.github.io"
+baseurl: ""
+url: "https://carmen-sandiego-free.github.io"
+
+# GitHub Repository Information
+github_username: Carmen-Sandiego-Free
+repository: carmen-sandiego-world-offline-setup-assistant
+
+# SEO and Social Media
+twitter:
+  username: carmen_sandiego_free
+  card: summary_large_image
+
+facebook:
+  app_id: 
+  publisher: 
+
+social:
+  name: Carmen Sandiego Free
+  links:
+    - https://github.com/Carmen-Sandiego-Free
+    - https://carmen-sandiego-free.github.io
+
+# Google Analytics (optional)
+google_analytics: 
+
+# Theme and Appearance
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  educational_resources:
+    output: true
+    permalink: /:collection/:name/
+
+# Site Navigation
+nav_links:
+  - name: "Home"
+    url: "/"
+  - name: "Download"
+    url: "https://github.com/Carmen-Sandiego-Free/carmen-sandiego-world-offline-setup-assistant/releases/latest"
+  - name: "Documentation"
+    url: "/docs/"
+  - name: "For Educators"
+    url: "/educators/"
+  - name: "Support"
+    url: "https://github.com/Carmen-Sandiego-Free/carmen-sandiego-world-offline-setup-assistant/issues"
+
+# SEO Keywords
+keywords: 
+  - carmen sandiego
+  - geography game
+  - educational software
+  - offline learning
+  - world geography
+  - classroom tools
+  - homeschool resources
+  - detective game
+  - geography education
+  - educational gaming
+
+# Footer Links
+footer_links:
+  - name: "GitHub"
+    url: "https://github.com/Carmen-Sandiego-Free/carmen-sandiego-world-offline-setup-assistant"
+  - name: "Issues"
+    url: "https://github.com/Carmen-Sandiego-Free/carmen-sandiego-world-offline-setup-assistant/issues"
+  - name: "License"
+    url: "https://github.com/Carmen-Sandiego-Free/carmen-sandiego-world-offline-setup-assistant/blob/main/LICENSE"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .internal/
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Permalink structure
+permalink: /:year/:month/:day/:title/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Carmen Sandiego Free Team"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Educational metadata
+educational_info:
+  target_ages: "6-18 years"
+  curriculum_standards:
+    - "National Geography Standards"
+    - "Common Core State Standards"
+    - "Next Generation Science Standards"
+  learning_objectives:
+    - "Spatial thinking and geographic reasoning"
+    - "Cultural awareness and global citizenship"
+    - "Critical thinking and problem solving"
+    - "Research and communication skills"
+
+# Technical specifications
+technical_specs:
+  platforms:
+    - "Windows 7+"
+    - "macOS 10.12+"
+    - "Linux Ubuntu 16.04+"
+  requirements:
+    min_ram: "2GB"
+    min_storage: "500MB"
+    min_resolution: "1024x768" 
